@@ -13,6 +13,7 @@ public class AVLTree {
 
     private IAVLNode root;
     private static IAVLNode virtualNode = new AVLNode();
+    private int min, max;
 
     public AVLTree() {
         root = virtualNode;
